@@ -1,9 +1,9 @@
-package com.example.zacselby_comp228lab4;
+package com.studentinfo.zacselby_comp228lab4;
 
 import javafx.application.Application;
 
 public class Launcher {
     public static void main(String[] args) {
-        Application.launch(HelloApplication.class, args);
+        Application.launch(StudentApp.class, args);
     }
 }

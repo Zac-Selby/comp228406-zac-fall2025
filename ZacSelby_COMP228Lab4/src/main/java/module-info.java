@@ -1,4 +1,4 @@
-module com.example.zacselby_comp228lab4 {
+module com.studentinfo.zacselby_comp228lab4 {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,6 @@ module com.example.zacselby_comp228lab4 {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.example.zacselby_comp228lab4 to javafx.fxml;
-    exports com.example.zacselby_comp228lab4;
+    opens com.studentinfo.zacselby_comp228lab4 to javafx.fxml;
+    exports com.studentinfo.zacselby_comp228lab4;
 }
